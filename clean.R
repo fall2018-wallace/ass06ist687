@@ -2,6 +2,7 @@
 clean_data <- raw_data
 readStates <- function(states)
 {
+    # remove rows that not needed
     states <- states[-1,]
     
     num.row <- nrow(states)
