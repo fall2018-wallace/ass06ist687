@@ -31,16 +31,22 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "kjain01",
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "xyzzy.R"
         }
     ],
-    "updated_at": "2018-10-04 17:31:16",
+    "updated_at": "2018-10-04 17:42:23",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
