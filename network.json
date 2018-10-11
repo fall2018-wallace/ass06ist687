@@ -37,10 +37,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "Merge.R"
+            "name": "Merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Histogram.R"
         }
     ],
-    "updated_at": "2018-10-11 16:26:56",
+    "updated_at": "2018-10-11 16:39:27",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
