@@ -13,17 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "output": "clean_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -33,16 +22,10 @@
         {
             "assigned_to": "kjain01",
             "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "kjain01",
-            "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 16:19:01",
+    "updated_at": "2018-10-11 16:19:06",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
