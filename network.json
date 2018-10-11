@@ -254,10 +254,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "ScatterPlot.R"
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_12.png"
         }
     ],
-    "updated_at": "2018-10-11 17:23:24",
+    "updated_at": "2018-10-11 17:24:07",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
