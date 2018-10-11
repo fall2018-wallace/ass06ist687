@@ -17,13 +17,13 @@
         {
             "ports": [
                 {
-                    "input": "df",
-                    "output": "clean_data",
+                    "input": "clean",
+                    "output": "newframe",
                     "type": "r_obj"
                 }
             ],
             "source": "clean.R",
-            "target": "MergeArrests.R"
+            "target": "Merge.R"
         }
     ],
     "nodes": [
@@ -33,20 +33,14 @@
         {
             "assigned_to": "kjain01",
             "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "kjain01",
-            "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         },
         {
             "desc": "",
-            "name": "xyzzy.R"
+            "name": "Merge.R"
         }
     ],
-    "updated_at": "2018-10-04 17:42:23",
+    "updated_at": "2018-10-11 16:26:56",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
