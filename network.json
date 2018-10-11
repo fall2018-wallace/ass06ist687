@@ -116,6 +116,17 @@
             ],
             "source": "BoxPlot.R",
             "target": "Plot_7.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "MurderRate.R"
         }
     ],
     "nodes": [
@@ -168,10 +179,12 @@
             "name": "Plot_7.png"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "MurderRate.R"
+            "name": "MurderRate.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:05:28",
+    "updated_at": "2018-10-11 17:08:58",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
