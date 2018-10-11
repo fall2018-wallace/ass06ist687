@@ -178,6 +178,17 @@
             ],
             "source": "BarChart.R",
             "target": "Plot_11.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "ScatterPlot.R"
         }
     ],
     "nodes": [
@@ -263,6 +274,6 @@
             "name": "Plot_12.png"
         }
     ],
-    "updated_at": "2018-10-11 17:24:07",
+    "updated_at": "2018-10-11 17:24:33",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
