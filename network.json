@@ -33,8 +33,8 @@
                     "type": "r_obj"
                 }
             ],
-            "source": "Histogram.R",
-            "target": "Merge.R"
+            "source": "Merge.R",
+            "target": "Histogram.R"
         }
     ],
     "nodes": [
@@ -58,6 +58,6 @@
             "name": "Histogram.R"
         }
     ],
-    "updated_at": "2018-10-11 16:40:53",
+    "updated_at": "2018-10-11 16:41:36",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
