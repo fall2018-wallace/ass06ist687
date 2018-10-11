@@ -168,6 +168,16 @@
             ],
             "source": "clean.R",
             "target": "Plot_10.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "o",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Plot_11.png"
         }
     ],
     "nodes": [
@@ -244,6 +254,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:17:52",
+    "updated_at": "2018-10-11 17:18:00",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
