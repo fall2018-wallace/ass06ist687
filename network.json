@@ -138,6 +138,16 @@
             ],
             "source": "Merge.R",
             "target": "BarChart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "l",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "Plot_8.png"
         }
     ],
     "nodes": [
@@ -214,6 +224,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:17:12",
+    "updated_at": "2018-10-11 17:17:36",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
