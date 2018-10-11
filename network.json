@@ -136,10 +136,15 @@
             "name": "Plot_5.png"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "BoxPlot.R"
+            "name": "BoxPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_6.png"
         }
     ],
-    "updated_at": "2018-10-11 17:00:09",
+    "updated_at": "2018-10-11 17:02:21",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
