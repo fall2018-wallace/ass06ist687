@@ -127,6 +127,17 @@
             ],
             "source": "Merge.R",
             "target": "MurderRate.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "BarChart.R"
         }
     ],
     "nodes": [
@@ -197,10 +208,12 @@
             "name": "Plot_11.png"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "BarChart.R"
+            "name": "BarChart.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:12:15",
+    "updated_at": "2018-10-11 17:17:12",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
