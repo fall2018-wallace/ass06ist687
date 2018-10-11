@@ -14,3 +14,7 @@ m <- ggplot(mergeddataframe,aes(x=stateName,y=Murder)) + geom_col() + theme(axis
 
 n <- ggplot(mergeddataframe,aes(x=reorder(stateName,Murder),y=Murder)) + geom_col() + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
 #reorder() function is used to sort the plot in ascending order
+
+#11:Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
+
+o <- ggplot(mergeddataframe,aes(x=reorder(stateName,Murder),y=Murder)) + geom_col(aes(fill=percentOver18)) + theme(axis.text.x=element_text(angle=90,hjust=1)) + ggtitle("Total Murders")
