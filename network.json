@@ -189,6 +189,16 @@
             ],
             "source": "Merge.R",
             "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "Plot_12.png"
         }
     ],
     "nodes": [
@@ -274,6 +284,6 @@
             "name": "Plot_12.png"
         }
     ],
-    "updated_at": "2018-10-11 17:24:33",
+    "updated_at": "2018-10-11 17:24:49",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
