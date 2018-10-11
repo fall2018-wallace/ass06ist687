@@ -1,4 +1,7 @@
 
+library(ggplot2)
+
+
 a <- ggplot(mergeddataframe,aes(x=population))+geom_histogram(bins = 50, color = "black", fill = "black")
 
 b <- ggplot(mergeddataframe,aes(x=Murder))+geom_histogram(bins = 50, color = "blue", fill = "blue")
