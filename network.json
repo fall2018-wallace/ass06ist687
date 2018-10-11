@@ -96,6 +96,16 @@
             ],
             "source": "Merge.R",
             "target": "BoxPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "x",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlot.R",
+            "target": "Plot_6.png"
         }
     ],
     "nodes": [
@@ -148,6 +158,6 @@
             "name": "Plot_7.png"
         }
     ],
-    "updated_at": "2018-10-11 17:02:31",
+    "updated_at": "2018-10-11 17:02:44",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
