@@ -183,8 +183,11 @@
             "desc": "",
             "name": "MurderRate.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Plot_8.png"
         }
     ],
-    "updated_at": "2018-10-11 17:08:58",
+    "updated_at": "2018-10-11 17:11:08",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
