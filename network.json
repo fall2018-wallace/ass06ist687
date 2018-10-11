@@ -252,8 +252,12 @@
             "desc": "",
             "name": "BarChart.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "ScatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-11 17:18:57",
+    "updated_at": "2018-10-11 17:23:24",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
