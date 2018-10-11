@@ -24,6 +24,181 @@
             ],
             "source": "clean.R",
             "target": "Merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "Histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "b",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "c",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "d",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "e",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_5.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "BoxPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "x",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlot.R",
+            "target": "Plot_6.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "y",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlot.R",
+            "target": "Plot_7.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "MurderRate.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "BarChart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "l",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "Plot_8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "Plot_9.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "n",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "Plot_10.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "o",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "Plot_11.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "Plot_12.png"
         }
     ],
     "nodes": [
@@ -37,10 +212,78 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "Merge.R"
+            "name": "Merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "Histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_1.png"
+        },
+        {
+            "name": "Plot_2.png"
+        },
+        {
+            "name": "Plot_3.png"
+        },
+        {
+            "name": "Plot_4.png"
+        },
+        {
+            "name": "Plot_5.png"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "BoxPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_6.png"
+        },
+        {
+            "name": "Plot_7.png"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "MurderRate.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_8.png"
+        },
+        {
+            "name": "Plot_9.png"
+        },
+        {
+            "name": "Plot_10.png"
+        },
+        {
+            "name": "Plot_11.png"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "BarChart.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_12.png"
         }
     ],
-    "updated_at": "2018-10-11 16:26:56",
+    "updated_at": "2018-10-11 17:24:49",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
