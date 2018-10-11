@@ -148,6 +148,16 @@
             ],
             "source": "BarChart.R",
             "target": "Plot_8.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "m",
+                    "type": "png"
+                }
+            ],
+            "source": "BarChart.R",
+            "target": "Plot_9.png"
         }
     ],
     "nodes": [
@@ -224,6 +234,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:18:30",
+    "updated_at": "2018-10-11 17:18:39",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
