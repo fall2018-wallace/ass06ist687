@@ -75,6 +75,16 @@
             ],
             "source": "Histogram.R",
             "target": "Plot_4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "e",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_5.png"
         }
     ],
     "nodes": [
@@ -115,6 +125,6 @@
             "name": "Plot_5.png"
         }
     ],
-    "updated_at": "2018-10-11 16:53:03",
+    "updated_at": "2018-10-11 16:53:20",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
