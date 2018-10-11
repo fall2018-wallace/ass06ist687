@@ -35,6 +35,16 @@
             ],
             "source": "Merge.R",
             "target": "Histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "a",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "Plot_1.png"
         }
     ],
     "nodes": [
@@ -75,6 +85,6 @@
             "name": "Plot_5.png"
         }
     ],
-    "updated_at": "2018-10-11 16:48:38",
+    "updated_at": "2018-10-11 16:49:04",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
