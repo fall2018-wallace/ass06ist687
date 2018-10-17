@@ -36,6 +36,6 @@ ColorShaded <- mapColor
 
 #geom_point() function is used to create scatter plot
 
-mapColor <- mapColor+ geom_point(data = mergeddataframe, aes(x=mergeddataframe$x, y= mergeddataframe$y, size = mergedf$population, color=mergedf$UrbanPop))
+mapColor <- mapColor+ geom_point(data = mergeddataframe, aes(x=mergeddataframe$x, y= mergeddataframe$y, size = mergeddataframe$population, color=mergeddataframe$UrbanPop))
 SP <- mapColor
 
