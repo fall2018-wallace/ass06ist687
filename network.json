@@ -210,6 +210,25 @@
             ],
             "source": "Merge.R",
             "target": "Homework7.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "USMap",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "ColorShaded",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "ScatterPlot",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Homework7.R",
+            "target": "Homework7Plots.R"
         }
     ],
     "nodes": [
@@ -301,11 +320,13 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "kjain01",
             "desc": "",
-            "name": "Homework7Plots.R"
+            "name": "Homework7Plots.R",
+            "task_status": "in progress"
         }
     ],
     "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
-    "updated_at": "2018-10-17 06:09:16",
+    "updated_at": "2018-10-17 06:14:28",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
