@@ -229,6 +229,16 @@
             ],
             "source": "Homework7.R",
             "target": "Homework7Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USMap",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_13.png"
         }
     ],
     "nodes": [
@@ -339,6 +349,6 @@
         }
     ],
     "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
-    "updated_at": "2018-10-17 06:15:27",
+    "updated_at": "2018-10-17 06:15:44",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
