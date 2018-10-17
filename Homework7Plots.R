@@ -35,10 +35,7 @@ ColorShaded <- mapColor
 #5 Show the population as a circle per state (the larger the population, the larger the circle), using the location defined by the center of each state
 
 #geom_point() function is used to create scatter plot
-mapColor<- ggplot(mergeddataframe, aes(map_id=stateName))
-mapColor<- mapColor + geom_map(map=us, aes(fill=area))
-mapColor<- mapColor +expand_limits(x=us$long, y= us$lat)
-mapColor<- mapColor + geom_point(aes(x = x, y = y, size=population))
-mapColor<-mapColor +coord_map()+ ggtitle("Scatter Plot of Population of Each State")
+
+mapColor <- mapColor+ geom_point(data = mergeddataframe, aes(x=mergeddataframe$x, y= mergeddataframe$y, size = mergedf$population, color=mergedf$UrbanPop))
 SP <- mapColor
 
