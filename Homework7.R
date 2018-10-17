@@ -19,4 +19,5 @@ mergeddataframe <- merge(mergedataframe,df, by="stateName")
 mergeddataframe
 #tolower() function converts the characters in character variable to lower case
 #we are using tolower() function because ggplot wants all the stateNames to be in lower case
-mergeddataframe$stateName <- tolower(mergeddataframe$stateName)mergeddataframe)
+mergeddataframe$stateName <- tolower(mergeddataframe$stateName)
+mergeddataframe
