@@ -39,3 +39,20 @@ ColorShaded <- mapColor
 mapColor <- mapColor+ geom_point(data = mergeddataframe, aes(x=mergeddataframe$x, y= mergeddataframe$y, size = mergeddataframe$population))
 SP <- mapColor
 
+# Step D: Zoom the map
+
+# 6)	Repeat step C, but only show the states in the north east
+
+# Hint: get the lat and lon of new york city
+# Hint: set the xlim and ylim to NYC +/- 10
+latlon <- geocode(source = "dsk","nyc, new york, ny")
+latlon
+
+#mapColor <- ggplot(mergeddataframe, aes(map_id = stateName))  
+#mapColor <- mapColor + geom_map(map = us, aes(fill=mergeddataframe$Murder))  
+#mapColor <- mapColor+ geom_point(data = mergeddataframe, aes(x=mergeddataframe$x, y= mergeddataframe$y, size = mergeddataframe$population))
+mapColor <- mapColor + xlim(latlon$lon-10,latlon$lon+10) + ylim(latlon$lat-10, latlon$lat+10)
+mapColor <- mapColor + coord_map() 
+#mapColor <- mapColor + expand_limits(x =us$long, y = us$lat) 
+mapColor
+
