@@ -324,9 +324,12 @@
             "desc": "",
             "name": "Homework7Plots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Plot_13.png"
         }
     ],
     "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
-    "updated_at": "2018-10-17 06:14:28",
+    "updated_at": "2018-10-17 06:14:57",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
