@@ -214,25 +214,6 @@
         {
             "ports": [
                 {
-                    "input": "mergeddataframe",
-                    "output": "USMap",
-                    "type": "r_obj"
-                },
-                {
-                    "output": "ColorShaded",
-                    "type": "r_obj"
-                },
-                {
-                    "output": "ScatterPlot",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "Homework7.R",
-            "target": "Homework7Plots.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "USMap",
                     "type": "png"
                 }
@@ -259,6 +240,25 @@
             ],
             "source": "Homework7Plots.R",
             "target": "Plot_15.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframea",
+                    "output": "USMap",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "ColorShaded",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "ScatterPlot",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Homework7.R",
+            "target": "Homework7Plots.R"
         }
     ],
     "nodes": [
@@ -369,6 +369,6 @@
         }
     ],
     "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
-    "updated_at": "2018-10-17 06:16:15",
+    "updated_at": "2018-10-17 06:19:29",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
