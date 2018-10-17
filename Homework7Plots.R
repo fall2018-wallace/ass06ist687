@@ -40,5 +40,5 @@ mapColor<- mapColor + geom_map(map=us, aes(fill=area))
 mapColor<- mapColor +expand_limits(x=us$long, y= us$lat)
 mapColor<- mapColor + geom_point(aes(x = x, y = y, size=population))
 mapColor<-mapColor +coord_map()+ ggtitle("Scatter Plot of Population of Each State")
-ScatterPlot <- mapColor
+SP <- mapColor
 
