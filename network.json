@@ -234,16 +234,6 @@
         {
             "ports": [
                 {
-                    "output": "ScatterPlot",
-                    "type": "png"
-                }
-            ],
-            "source": "Homework7Plots.R",
-            "target": "Plot_15.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "mergeddataframe",
                     "output": "mergeddataframe",
                     "type": "r_obj"
@@ -251,6 +241,16 @@
             ],
             "source": "Homework7.R",
             "target": "Homework7Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SP",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_15.png"
         }
     ],
     "nodes": [
@@ -361,6 +361,6 @@
         }
     ],
     "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
-    "updated_at": "2018-10-17 06:21:03",
+    "updated_at": "2018-10-17 06:22:10",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
