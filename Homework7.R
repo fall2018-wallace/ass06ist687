@@ -15,7 +15,7 @@ stateName <- state.name
 df <- data.frame(stateName,stateArea,centerOfState)
 df
 #merging the new created dataframe with the previous step mergeddataframe by variable "stateName"
-mergeddataframe <- merge(mergedataframe,df, by="stateName")
+mergeddataframe <- merge(mergeddataframe,df, by="stateName")
 mergeddataframe
 #tolower() function converts the characters in character variable to lower case
 #we are using tolower() function because ggplot wants all the stateNames to be in lower case
