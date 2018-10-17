@@ -199,6 +199,68 @@
             ],
             "source": "ScatterPlot.R",
             "target": "Plot_12.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge.R",
+            "target": "Homework7.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USMap",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_13.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ColorShaded",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_14.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeddataframe",
+                    "output": "mergeddataframe",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Homework7.R",
+            "target": "Homework7Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "SP",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_15.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zoommap",
+                    "type": "png"
+                }
+            ],
+            "source": "Homework7Plots.R",
+            "target": "Plot_16.png"
         }
     ],
     "nodes": [
@@ -282,8 +344,33 @@
         },
         {
             "name": "Plot_12.png"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "Homework7.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "kjain01",
+            "desc": "",
+            "name": "Homework7Plots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Plot_13.png"
+        },
+        {
+            "name": "Plot_14.png"
+        },
+        {
+            "name": "Plot_15.png"
+        },
+        {
+            "name": "Plot_16.png"
         }
     ],
-    "updated_at": "2018-10-11 17:24:49",
+    "notes": "IST 687 : Homework 6\r\nName: Kripesh Jain\r\nSUID: 200934493",
+    "updated_at": "2018-10-17 06:34:31",
     "url": "https://github.com/fall2018-wallace/ass06ist687"
 }
